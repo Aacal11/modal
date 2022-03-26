@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@100;300;500;700&display=swap');
+
+
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all .6s ease;
+}
+
+
+span
+{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+
+
+    background-color: #E83A14;
+    padding: 10px 20px;
+    color: white;
+
+    cursor: pointer;
+    transition: all .6s ease;
+
+}
+
+span:hover{
+    background-color: #D9534F;
+}
+
+
+.messege.active{ display: block;  }
+
+.hiden{ display: none; }
+
+.messege 
+{
+    height: 100vh;
+    /* background-color: black; */
+    position: relative;
+    display: none;
+    
+}
+
+.messege .box-content
+{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+
+    display: grid;
+    grid-template-rows: 200px, 1fr;
+    transition: height .10s ease-in-out;
+
+
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, .1);
+
+   
+}
+
+.messege .box-content .header
+{
+ 
+
+    width: 100%;
+    height: 70px;
+    background-color: #072227;  
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.messege .box-content .header h1
+{
+    margin-left: 10px;
+    color: white;
+}
+
+.messege .box-content .header i
+{
+    margin-right: 20px;
+    font-size: 1.3rem;
+    color: white;
+
+    cursor: pointer;
+}
+
+.messege .box-content .header i:hover
+{
+    color: red;
+}
+
+
+.messege .box-content .box-body
+{
+    padding: 0 10px;
+}
+
+.messege .box-content .box-body input[type = email] ,
+.messege .box-content .box-body input[type = password]
+{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+.messege .box-content .box-body button
+{
+    float: inline-end;
+    padding: 5px 13px;
+    margin-top: 10px;
+
+    border: none;
+    background-color: #1C6DD0;
+    color: #fff;
+    cursor: pointer;
+}
+.messege .box-content .box-body button:hover
+{
+    background-color: #344CB7;
+}
+
+
+.messege .box-content .option label
+{
+  font-size: .7rem;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
